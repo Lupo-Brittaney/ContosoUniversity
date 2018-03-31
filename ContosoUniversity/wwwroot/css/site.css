@@ -33,3 +33,43 @@
         display: none;
     }
 }
+
+h1, h2, .navbar-brand {
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.navbar-inverse {
+    background-color: #C9C5C1;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: #568EA3;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+    color: #8C6057;
+}
+
+.jumbotron {
+    background-color: #568EA3;
+    color: #C9C5C1;
+}
+.jumbotron h1, .jumbotron .h1 {
+        text-align: center;
+}
+a:hover, a:focus {
+    color: #8C6057;
+}
+a{
+    color:#568EA3;
+}
+h2{
+    color:#8c6057;
+}
+.navbar-brand{
+    font-size:28px;
+}
